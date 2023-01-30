@@ -1,0 +1,11 @@
+# ignore ALL .log files
+*.log
+
+# ignore terraform generated files
+.terraform.lock.hcl
+*.tfstate.*
+*.tfstate
+.terraform
+**/.terraform/*
+crash.log
+crash.*.log
